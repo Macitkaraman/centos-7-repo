@@ -1,0 +1,30 @@
+# CentOS-Base.repo
+# 02.07.2024 Güncel Repo
+
+[base]
+name=CentOS-7.9.2009 - Base
+baseurl=https://vault.centos.org/7.9.2009/os/x86_64/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#released updates 
+[updates]
+name=CentOS-7.9.2009 - Updates
+baseurl=https://vault.centos.org/7.9.2009/updates/x86_64/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#additional packages that may be useful
+[extras]
+name=CentOS-7.9.2009 - Extras
+baseurl=https://vault.centos.org/7.9.2009/extras/x86_64/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-7.9.2009 - Plus
+baseurl=https://vault.centos.org/7.9.2009/centosplus/x86_64/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
