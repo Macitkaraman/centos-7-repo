@@ -1,5 +1,7 @@
 30 Haziran 2024 itibarıyla CentOS 7, Destek Sonu (EOL) durumuna gelmiştir.
 
+"Updated Repo as of 02.07.2024"
+
 Bu, tüm CentOS 7 depolarının devre dışı bırakılacağı ve vault.centos.org'a taşınacağı anlamına geliyor.
 
 Resmi destek sona ermiş olsa da, bazı kullanıcılar (öncelikle ticari olmayan kullanıcılar) bu arşivlenmiş depoları kullanarak yum ile paketleri kurmak isteyebilirler.
