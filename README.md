@@ -11,7 +11,7 @@ Resmi destek sona ermiş olsa da, bazı kullanıcılar (öncelikle ticari olmaya
 Bu depoları etkinleştirmek için aşağıdaki komutu çalıştırın:
 
 ```bash
-sudo curl https://raw.githubusercontent.com/sdhmh/enable-centos-7-repo/main/CentOS-Base.repo --output /etc/yum.repos.d/CentOS-Base.repo
+sudo curl https://github.com/Macitkaraman/centos-7-repo/blob/711cb534d8e7fcb9bdce456f5f21b2a08e9a761c/CentOS-Base.repo --output /etc/yum.repos.d/CentOS-Base.repo
 ```
 
 Bu komut, belirtilen URL'den `CentOS-Base.repo` dosyasını indirir ve `/etc/yum.repos.d/` dizinine kaydeder, böylece sisteminizin depo yapılandırmasını vault depolarını kullanacak şekilde günceller.
